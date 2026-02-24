@@ -1,0 +1,16 @@
+{
+ "workspace": {
+ "id": "dad248e5-9536-48a7-89cd-883da05bf75e"
+ },
+ "entities": {
+ "collections": [
+ "../postman/collections/Failure.postman_collection.json"
+ ],
+ "environments": [
+ "../postman/environments/Test.postman_environment.json"
+ ],
+ "specs": [],
+ "flows": [],
+ "globals": []
+ }
+}
