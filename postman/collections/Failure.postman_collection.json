@@ -1,0 +1,49 @@
+{
+ "info": {
+ "_postman_id": "f896d558-4cb9-4a72-be70-8b8d0369ac2e",
+ "name": "Failure",
+ "description": "SHREYYYYY",
+ "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+ },
+ "item": [
+ {
+ "name": "Echo",
+ "event": [
+ {
+ "listen": "test",
+ "script": {
+ "id": "c7873469-2100-42df-9c81-6d1a4c7648fc",
+ "exec": [
+ "pm.test(\"Status code is 200\", function () {",
+ " pm.response.to.have.status(400);",
+ "});",
+ ""
+ ],
+ "type": "text/javascript",
+ "packages": {}
+ }
+ }
+ ],
+ "id": "f9485d5f-1d50-4e93-9d2f-dd64a09dc99e",
+ "protocolProfileBehavior": {
+ "disableBodyPruning": true
+ },
+ "request": {
+ "method": "GET",
+ "header": [],
+ "url": {
+ "raw": "https://postman-echo.com/get",
+ "protocol": "https",
+ "host": [
+ "postman-echo",
+ "com"
+ ],
+ "path": [
+ "get"
+ ]
+ }
+ },
+ "response": []
+ }
+ ]
+}
