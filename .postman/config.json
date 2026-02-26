@@ -1,0 +1,14 @@
+{
+  "workspace": {
+    "id": "a93e7844-a6a6-4d94-b6c5-fbfa74613e1c"
+  },
+  "entities": {
+    "collections": [
+      "../postman/collections/POSTCON: Jelly Bean Wiki (AWS) - JellyBean-Stage.postman_collection.json"
+    ],
+    "environments": [],
+    "specs": [],
+    "flows": [],
+    "globals": []
+  }
+}
