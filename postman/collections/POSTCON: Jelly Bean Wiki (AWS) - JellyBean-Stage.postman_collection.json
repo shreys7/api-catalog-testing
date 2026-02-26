@@ -1,0 +1,409 @@
+{
+  "info": {
+    "_postman_id": "f3393496-4792-42af-b686-5ac50d176630",
+    "name": "POSTCON: Jelly Bean Wiki (AWS) - JellyBean-Stage",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "/api/recipes",
+      "id": "77105ab8-27a6-4224-8c48-4f025f989ca0",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/recipes",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "recipes"
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "13df9cb9-67d7-4fa4-bf45-f0452c46b90f",
+          "name": "200 response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/recipes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "recipes"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Transfer-Encoding",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "CF-RAY",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Server",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "vary",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Connection",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Content-Encoding",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "cf-cache-status",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "alt-svc",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Date",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "x-render-origin-server",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "rndr-id",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Content-Type",
+              "value": "string"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n  \"totalPages\": 506,\n  \"pageSize\": 2041,\n  \"totalCount\": 7454,\n  \"currentPage\": 167,\n  \"items\": [\n    {\n      \"totalTime\": \"string\",\n      \"cookTime\": \"string\",\n      \"description\": \"string\",\n      \"recipeId\": 14,\n      \"tips\": [\n        \"string\",\n        \"string\"\n      ],\n      \"prepTime\": \"string\",\n      \"makingAmount\": \"string\",\n      \"directions\": [\n        \"string\",\n        \"string\"\n      ],\n      \"imageUrl\": \"https://exaCLktMKIUe.csymZETc.diw,FV\",\n      \"name\": \"string\",\n      \"ingredients\": [\n        \"string\",\n        \"string\"\n      ],\n      \"additions1\": [\n        \"string\",\n        \"string\"\n      ]\n    },\n    {\n      \"totalTime\": \"string\",\n      \"cookTime\": \"string\",\n      \"description\": \"string\",\n      \"recipeId\": 9722,\n      \"tips\": [\n        \"string\",\n        \"string\"\n      ],\n      \"prepTime\": \"string\",\n      \"makingAmount\": \"string\",\n      \"directions\": [\n        \"string\",\n        \"string\"\n      ],\n      \"imageUrl\": \"http://uOURmcIOjCRnQJROhlLeeJepJakMm.mxddIuSf4spNCtQi-t5SXoT+iMYJQp+nE1sRq3qvk0uWzQBhXhTTVMDEmxl\",\n      \"name\": \"string\",\n      \"ingredients\": [\n        \"string\",\n        \"string\"\n      ],\n      \"additions1\": [\n        \"string\",\n        \"string\"\n      ]\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "/api/mileStones",
+      "id": "60662799-7e2e-4175-8afc-04657e26af5f",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/mileStones",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "mileStones"
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "61127f0b-618e-44d3-a1b1-2cc19d44a823",
+          "name": "200 response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/mileStones",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mileStones"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Transfer-Encoding",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "CF-RAY",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Server",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "vary",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Connection",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Content-Encoding",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "cf-cache-status",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "alt-svc",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Date",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "x-render-origin-server",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "rndr-id",
+              "value": "string"
+            },
+            {
+              "disabled": false,
+              "description": {
+                "content": "",
+                "type": "text/plain"
+              },
+              "key": "Content-Type",
+              "value": "string"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n  \"totalPages\": 2456,\n  \"pageSize\": 5352,\n  \"totalCount\": 650,\n  \"currentPage\": 8227,\n  \"items\": [\n    {\n      \"year\": 9343,\n      \"mileStoneId\": 2243,\n      \"description\": \"string\"\n    },\n    {\n      \"year\": 453,\n      \"mileStoneId\": 3306,\n      \"description\": \"string\"\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "/api/Beans",
+      "id": "c58172a8-c8b4-451d-9e9d-346b24022070",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/Beans",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "Beans"
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "3ae4bf5f-f366-480b-a639-938eeaab2cf8",
+          "name": "200 response",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/Beans",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "Beans"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "text",
+          "header": [],
+          "cookie": [],
+          "responseTime": null,
+          "body": null
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "basePath",
+      "value": "JellyBean-Stage"
+    },
+    {
+      "key": "baseUrl",
+      "value": "https://15ssa4a6d7.execute-api.us-east-1.amazonaws.com/{{basePath}}"
+    }
+  ]
+}
